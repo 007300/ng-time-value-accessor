@@ -1,2 +1,2 @@
 export * from './module';
-export * from './date-value-accessor';
+export * from './sec-value-accessor';

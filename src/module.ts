@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 
-import { DateValueAccessor } from './date-value-accessor';
+import { SecValueAccessor } from './sec-value-accessor';
 
 @NgModule({
-	declarations: [DateValueAccessor],
-	exports: [DateValueAccessor]
+	declarations: [SecValueAccessor],
+	exports: [SecValueAccessor]
 })
-export class DateValueAccessorModule {}
+export class TimeValueAccessorModule {}
