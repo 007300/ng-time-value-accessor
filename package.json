@@ -1,7 +1,7 @@
 {
-	"name": "ng-date-value-accessor",
-	"version": "0.0.2",
-	"description": "Date value accessor for Angular",
+	"name": "ng-time-value-accessor",
+	"version": "0.0.1",
+	"description": "Time value accessor for Angular",
 	"main": "./dist/src/index.js",
 	"types": "./dist/src/index.d.ts",
 	"readme": "README.md",
@@ -10,16 +10,20 @@
 		"prepublishOnly": "yarn aot",
 		"tsc": "rm -rf ./dist && tsc",
 		"aot": "rm -rf ./dist && ./node_modules/.bin/ngc",
-		"docs":
-			"rm -rf ./docs && typedoc --out ./docs --name angular-date-value-accessor --readme ./README.md --module commonjs --target ES5 --theme default && yarn docs-github",
+		"docs": "rm -rf ./docs && typedoc --out ./docs --name angular-date-value-accessor --readme ./README.md --module commonjs --target ES5 --theme default && yarn docs-github",
 		"docs-github": "touch ./docs/.nojekyll",
 		"test": "./node_modules/.bin/karma start karma-ci.conf.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/007300/ng-date-value-accessor.git"
+		"url": "https://github.com/007300/ng-time-value-accessor.git"
 	},
-	"keywords": ["angular", "forms", "ControlValueAccessor", "DateValueAccessor"],
+	"keywords": [
+		"angular",
+		"forms",
+		"ControlValueAccessor",
+		"TimeValueAccessor"
+	],
 	"author": {
 		"name": "Xue Qin",
 		"email": "pete.qinx@gmail.com"
