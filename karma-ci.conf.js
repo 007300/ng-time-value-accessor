@@ -6,7 +6,7 @@ module.exports = function(config) {
 		basePath: './',
 		frameworks: ['jasmine', 'karma-typescript'],
 		files: [
-			'src/date-value-accessor.spec.ts',
+			'src/sec-value-accessor.spec.ts',
 			{
 				pattern: 'src/**/*.ts'
 			}
