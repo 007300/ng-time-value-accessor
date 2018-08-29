@@ -1,10 +1,10 @@
 # WIP: ng-time-value-accessor
 
 [![Build Status](https://travis-ci.org/007300/ng-time-value-accessor.svg?branch=master)](https://travis-ci.org/007300/ng-time-value-accessor)
-
 [![npm version](https://badge.fury.io/js/ng-time-value-accessor.svg)](https://badge.fury.io/js/ng-time-value-accessor)
 
 A time value accessor for Angular 5+, can be used for input[time].
+Instead of 'hh:mm', the time will be converted to seconds since '00:00'.
 
 ## Examples:
 
