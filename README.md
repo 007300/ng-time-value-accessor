@@ -8,14 +8,14 @@ Instead of 'hh:mm', the time will be converted to seconds since '00:00'.
 
 ## Examples:
 
-Add the attribute `timeAsSeconds` to a date input control:
+Add the attribute `timeAsSec` to a date input control:
 
 ```html
-<input type="time" name="begin" [(ngModel)]="begin" timeAsSeconds>
+<input type="time" name="begin" [(ngModel)]="begin" timeAsSec>
 
 OR
 
-<input type="time" formControlName="begin" timeAsSeconds>
+<input type="time" formControlName="begin" timeAsSec>
 ```
 
 ## Installation:
