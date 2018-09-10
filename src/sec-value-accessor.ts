@@ -35,7 +35,7 @@ export class SecValueAccessor implements ControlValueAccessor {
 
 	/** Write a new value to the element (model -> view) */
 	writeValue(value: number): void {
-		if (!value) {
+		if (!value && value !== 0) {
 			this.renderer.setProperty(this.elementRef.nativeElement, 'value', null);
 			return;
 		}
